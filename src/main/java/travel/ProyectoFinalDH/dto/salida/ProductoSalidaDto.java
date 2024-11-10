@@ -13,7 +13,7 @@ public class ProductoSalidaDto {
     private Date fecha;
     private List<String> imagenes; // URLs de las imágenes
     private CategoriaSalidaDto categoria; // Información de la categoría
-    private List<CaracteristicaSalidaDto> caracteristicas; // Lista de características
+    private List<CaracteristicaSalidaDto> caracteristicas; // Informacion de características
 
     public ProductoSalidaDto(){}
     public ProductoSalidaDto(Long id, String nombre, String descripcion, String region, int cantidad, double precio, Date fecha, List<String> imagenes, CategoriaSalidaDto categoria, List<CaracteristicaSalidaDto> caracteristicas) {
